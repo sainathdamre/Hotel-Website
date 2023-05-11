@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	form</title>
+	<script>
+	function f1()
+	{
+		a=document.getElementById('t1').value;
+		p=document.getElementById('t2').value;
+		if(a==='admin' && p==='ok')
+		{
+			alert("Login successful ");
+		}
+		
+	    else
+	    alert("login unsuccessful")
+	}
+	</script>
+
+</head>
+<br><br>
+<form >
+<body>
+<table border=2 align=center bgcolor=powderblue>
+<caption>Login Form</caption>
+<tr>
+	<td>Username</td>
+	<td><input type=text placeholder="Enter UserName" id=t1></td>
+</tr>
+
+<tr>
+	<td>Password</td>
+	<td><input type=password id=t2></td>
+</tr>
+
+<tr>
+	<td colspan=2 align=center>
+	<input type=reset value=Reset>
+	<input type=submit value=Login onclick="f1()">
+</td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>

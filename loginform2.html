@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+<style>
+	td{text-align:center;
+	}
+	.a1{color:red;}
+	
+</style>
+<form>
+	<br><br>
+
+	<table border=2 align=center bgcolor=skyblue>
+	<caption style="color:red">Registration Form</caption>
+	<tr>
+		<td class=a1>Name</td>
+		<td><input type="text" required></td>
+	</tr>
+
+	<tr>
+		<td>DOB</td>
+		<td><input type="date"></td>
+	</tr>
+
+	<tr>
+		<td>Contact Number</td>
+		<td><input type=text maxlength=10></td>
+	</tr>
+
+	<tr>
+		<td class=a1>Email</td>
+		<td><input type=email required></td>
+	</tr>
+
+	<tr>
+		<td>Gender</td>
+		<td>
+		<input type=radio> Male
+		<input type=radio> Female
+		<input type=radio> Other
+		</td>
+	</tr>
+
+	<tr>
+		<td>Branch Name</td>
+		<td>
+			<select>
+			<option>Computer</option>
+			<option>Civil</option>
+			<option>Mechanical</option>
+			<option>AIDS</option>
+			<option>ENTC</option>
+			</select>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Hobbies</td>
+		<td>
+			<input type=checkbox>Singing<br>
+			<input type=checkbox>Dancing<br>
+			<input type=checkbox>Drawing<br>
+			<input type=checkbox>Trekking<br>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Rating</td>
+		<td><input type=number min=1 max=5></td>
+	</tr>
+
+	<tr>
+		<td>Comments</td>
+		<td><textarea cols=10 rows=4></textarea></td>
+	</tr>
+
+	<tr>
+		<td>Photo</td>
+		<td><input type= file accept="image/*"></td>
+	</tr>
+	<tr>
+
+	<tr>
+		<td>Fav Colour</td>
+		<td><input type=color ></td>
+	</tr>
+
+	<td colspan=2 align=center >
+	<button type=reset   style="background-color: pink">Reset</button>
+	<button type=submit   style="background-color: pink">Submit</button>
+	</td>
+
+	
+</tr>
+</form>
+</body>
+</html>
